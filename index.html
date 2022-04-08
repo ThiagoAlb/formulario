@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulário</title>
+</head>
+<body>
+
+    <section>
+        <h1>Formulário</h1>
+        <div>
+            <form action="#" method= “Post” >
+                <label for="primeiroNome">Nome:</label>
+                <input type="text" name="nome">
+                
+                <label for="sobrenome">Sobrenome:</label>
+                <input type="text" name="sobrenome">
+
+                <br>
+
+                <label for="email">Email:</label>
+                <input type="email" name="email">
+
+                <br>
+
+                <label for="endereco">Endereço:</label>
+                <input type="text" name="endereco">
+                <br>
+                <label for="cidade">Cidade:</label>
+                <input type="text" name="cidade">
+                <label for="endereco">Estado:</label>
+                <select name="estado">  
+                    <option value=”AC”>Acre</option>
+                    <option value=”AL”>Alagoas</option>
+                    <option value=”AP”>Amapá</option>
+                    <option value=”AM”>Amazonas</option>
+                    <option value=”BA”>Bahia</option>
+                    <option value=”CE”>Ceará</option>
+                    <option value=”ES”>Espírito Santo</option>
+                    <option value=”GO”>Goiás</option>
+                    <option value=”MA”>Maranhão</option>
+                    <option value=”MT”>Mato Grosso</option>
+                    <option value=”MS”>Mato Grosso do Sul</option>
+                    <option value=”MG”>Minas Gerais</option>
+                    <option value=”PA”>Pará</option>
+                    <option value=”PB”>Paraíba</option>
+                    <option value=”PE”>Pernambuco</option>
+                    <option value=”PI”>Piauí</option>
+                    <option value=”RJ”>Rio de Janeiro</option>
+                    <option value=”RN”>Rio Grande do Norte</option>
+                    <option value=”RS”>Rio Grande do Sul</option>
+                    <option value=”RO”>Rondônia</option>
+                    <option value=”RR”>Roraima</option>
+                    <option value=”SC”>Santa Catarina</option>
+                    <option value=”SP”>São Paulo</option>
+                    <option value=”SE”>Sergipe</option>
+                    <option value=”TO”>Tocantins</option>
+                    <option value=”DF”>Distrito Federal</option>
+                </select> 
+
+                <br>
+
+                <label for="telefone">Telefone:</label>
+                <input type="tel" name="telefone"> 
+                <br>
+
+                <label for="sexo">Sexo:</label>
+                <br>
+                <input type="radio" name="masculino" value="">
+                <label for="masculino">Masculino</label><br>
+                <input type="radio" name="feminino" value="">
+                <label for="feminino">Feminino</label>
+
+                <br>
+                <label for="nascimento">Data de nascimento:</label>
+                <input type="date" name="data"> 
+
+                <br>
+                
+                <p>Quais linguagens você têm conhecimento?</p>
+                <input type="checkbox" name="linguagem" value="op1"> 
+                <label for="javascript">JavaScript</label>
+                <input type="checkbox" name="linguagem" value="op2"> 
+                <label for="python">Python</label>
+                <input type="checkbox" name="linguagem" value="op3"> 
+                <label for="java">Java</label>
+                <input type="checkbox" name="linguagem" value="op4"> 
+                <label for="ruby">Ruby</label>
+                <input type="checkbox" name="linguagem" value="op5"> 
+                <label for="outra">Outras</label>
+
+                <br>
+                <p>Deixe uma mensagem para nós:</p>
+                <textarea id="w3review" name="w3review" rows="10" cols="45">Escreva sua mensagem...</textarea>
+
+                <br>
+                <input type="submit" value="Enviar">
+            </form>
+            
+        </div>
+    </section>
+    
+</body>
+</html>
