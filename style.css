@@ -1,5 +1,9 @@
 @charset "UTF-8";
 
+:root {
+    --fonte-padrao: Arial, Helvetica, sans-serif;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -11,3 +15,58 @@ body {
     background-repeat: no-repeat;
 }
 
+
+fieldset {
+    margin: auto;
+    max-width: 30vw;
+    margin-top: 50px;
+
+    background-color:rgba(0, 0, 0, 0.233);
+
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+legend {
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: white;
+
+    background-color: rgba(0, 0, 0, 0.63);
+    border-radius: 30px;
+
+    padding: 7px;
+}
+
+div {
+    margin: 20px;
+}
+
+div h1 {
+    margin-bottom: 20px;
+    font-size: 2.5vw;
+    text-align: center;
+    font-family: var(--fonte-padrao);
+}
+
+div p {
+    margin: 10px 0px 15px 0px;
+}
+
+form {
+    text-align: justify;
+    margin-left: 20px;
+}
+
+form label {
+    font-weight: bold;
+}
+
+form input {
+    margin: 5px;
+}
+
+#areaTexto {
+    
+} 
