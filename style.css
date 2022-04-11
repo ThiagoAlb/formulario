@@ -88,7 +88,7 @@ form p {
 #botaoEnviar {
     padding: 5px;
     margin: 1em;
-    width: 15em;
+    width: 80%;
     background-image: linear-gradient(to right, #442972, #041282);
     color: white;
     border: 2px solid black;
