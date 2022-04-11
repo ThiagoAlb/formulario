@@ -14,26 +14,31 @@
         <div>
             
             <fieldset>
-                <legend>Formulário</legend>
-                <form action="#" method= “Post” >
+                <legend>Formulário de Clientes</legend>
+                <form action="#" method= "post" >
                     <label for="primeiroNome">Nome completo:</label>
-                    <input type="text" name="nome">
+                    <br>
+                    <input class="tamanhoBarra" type="text" name="nome" required>
     
                     <br>
     
                     <label for="email">Email:</label>
-                    <input type="email" name="email">
+                    <br>
+                    <input class="tamanhoBarra" type="email" name="email" required>
     
                     <br>
     
                     <label for="endereco">Endereço:</label>
-                    <input type="text" name="endereco">
+                    <br>
+                    <input class="tamanhoBarra" type="text" name="endereco" required>
                     <br>
                     <label for="cidade">Cidade:</label>
-                    <input type="text" name="cidade">
+                    <br>
+                    <input class="tamanhoBarra" type="text" name="cidade" required>
                     <br>
                     <label for="endereco">Estado:</label>
-                    <select name="estado">  
+                    <br>
+                    <select name="estado" required>  
                         <option value=”AC”>Acre</option>
                         <option value=”AL”>Alagoas</option>
                         <option value=”AP”>Amapá</option>
@@ -65,19 +70,21 @@
                     <br>
     
                     <label for="telefone">Telefone:</label>
-                    <input type="tel" name="telefone"> 
+                    <br>
+                    <input type="tel" name="telefone" required> 
                     <br>
     
                     <label for="sexo">Sexo:</label>
                     <br>
-                    <input type="radio" name="masculino" value="">
+                    <input type="radio" name="masculino" value="" >
                     <label for="masculino">Masculino</label><br>
-                    <input type="radio" name="feminino" value="">
+                    <input type="radio" name="feminino" value="" >
                     <label for="feminino">Feminino</label>
     
                     <br>
                     <label for="nascimento">Data de nascimento:</label>
-                    <input type="date" name="data"> 
+                    <br>
+                    <input id="campoData" type="date" name="data" required> 
     
                     <br>
                     
@@ -88,17 +95,21 @@
                     <label for="python">Python</label>
                     <input type="checkbox" name="linguagem" value="op3"> 
                     <label for="java">Java</label>
+                    <br>
                     <input type="checkbox" name="linguagem" value="op4"> 
                     <label for="ruby">Ruby</label>
                     <input type="checkbox" name="linguagem" value="op5"> 
                     <label for="outra">Outras</label>
     
                     <br>
+
                     <p>Deixe uma mensagem para nós:</p>
                     <textarea id="areaTexto" name="areaTexto" rows="10" cols="35">Escreva sua mensagem...</textarea>
     
                     <br>
-                    <input type="submit" value="Enviar">
+
+                    <input id="botaoEnviar" type="submit" value="Enviar">
+                    
                 </form>
             </fieldset>
 
